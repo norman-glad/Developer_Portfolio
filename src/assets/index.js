@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import norm from './personal/itsme.png';
+import itsme from './personal/itsme.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -37,17 +37,19 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 
+import stock from './projects/stock.jpeg';
 
 
 
 export {
+  stock,
   bwmap,
   nairobi,
   whiteabstract,
   worldmap,
   logo,
   logotext,
-  norm,
+  itsme,
   backend,
   ux,
   frontend,
