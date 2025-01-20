@@ -13,6 +13,10 @@ import {
   docker,
   postgresql,
   stock,
+  layout,
+  api,
+  ui,
+  deeplearning,
 } from '../assets';
 
 export const navLinks = [
@@ -32,20 +36,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
+    title: 'Frontend',
+    icon: layout,
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'RESTful API',
+    icon: api,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'UI-UX',
+    icon: ui,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Machine Learning',
+    icon: deeplearning,
   },
 ];
 

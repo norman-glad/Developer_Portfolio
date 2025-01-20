@@ -22,6 +22,11 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
+import api from './icons/api.png';
+import deeplearning from './icons/deep-learning.png';
+import layout from './icons/layout.png';
+import ui from './icons/ui.png';
+
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -42,6 +47,10 @@ import stock from './projects/stock.jpeg';
 
 
 export {
+  api, 
+  deeplearning, 
+  layout, 
+  ui,
   stock,
   bwmap,
   nairobi,
