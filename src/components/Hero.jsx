@@ -37,7 +37,7 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              Voilà, This is{' '}
+              Voilà, This is...{' '}
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
@@ -45,10 +45,6 @@ const Hero = () => {
                 NORMAN
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
-            </p>
           </div>
           <div
             className="w-screen flex flex-col items-start 
@@ -80,7 +76,6 @@ const Hero = () => {
           </a>
         </div>
 
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
             className="absolute bottom-0 ml-[50vw] 

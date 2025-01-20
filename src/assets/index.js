@@ -1,4 +1,4 @@
-import bwmap from './backgrounds/bw-map.jpeg';
+import bwmap from './backgrounds/landing.jpg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
