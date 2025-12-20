@@ -6,11 +6,17 @@ import { github, pineapple, pineappleHover } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
+// Abstract gradient backgrounds for each project
+const projectGradients = [
+  'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', // Purple/Indigo for Bookstore
+  'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)', // Teal/Green for Todo App
+  'linear-gradient(135deg, #fc4a1a 0%, #f7b733 100%)', // Orange/Yellow for Caffeine Tracker
+];
+
 const ProjectCard = ({
   id,
   name,
   description,
-  image,
   repo,
   demo,
   index,
@@ -29,10 +35,9 @@ const ProjectCard = ({
         className="absolute top-0 left-0 z-10 bg-jetLight 
       h-full w-full opacity-[0.5] rounded-[24px]"></div>
 
-      <img
-        src={image}
-        alt={name}
-        className="absolute w-full h-full object-cover rounded-[24px]"
+      <div
+        className="absolute w-full h-full rounded-[24px]"
+        style={{ background: projectGradients[index] || projectGradients[0] }}
       />
 
       {active !== id ? (
@@ -116,8 +121,8 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies</p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}></p>
+        <h2 className={`${styles.sectionHeadTextLight}`}>My Projects.</h2>
       </motion.div>
 
       <motion.div

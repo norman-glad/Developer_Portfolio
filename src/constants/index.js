@@ -12,7 +12,6 @@ import {
   git,
   docker,
   postgresql,
-  stock,
   layout,
   api,
   ui,
@@ -95,64 +94,66 @@ const technologies = [
 const projects = [
   {
     id: 'project-1',
-    name: 'Full-Stack Bookstore Website',
-    description: 'A basic web-application featuring JWT-based authentication and secured routes for user login and book management',
+    name: 'Full-Stack Bookstore',
+    description: 'A full-stack bookstore web application built with Node.js and React. Features user authentication, book browsing, and CRUD operations with MongoDB as the database.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'nodejs',
         color: 'green-text-gradient',
       },
       {
-        name: 'jwt',
+        name: 'mongodb',
         color: 'pink-text-gradient',
       },
     ],
-    image: stock,
     repo: 'https://github.com/norman-glad/please-work',
     demo: 'https://please-work-1.onrender.com/',
   },
   {
     id: 'project-2',
-    name: 'Java Game Tracker Application',
-    description:
-      'A java-swing based application for storing and managing game and player data',
+    name: 'Todo App',
+    description: 'A task management application built with React frontend and .NET Entity Framework backend. Utilizes PostgreSQL for data persistence with full CRUD functionality.',
     tags: [
       {
-        name: 'java',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'sql',
+        name: '.net',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'postgresql',
         color: 'pink-text-gradient',
       },
     ],
-    image: stock,
-    repo: 'https://github.com/norman-glad/java-db-fx',
+    repo: 'https://github.com/norman-glad',
+    demo: 'https://github.com/norman-glad',
   },
   {
     id: 'project-3',
-    name: 'Spam Comment Classifier',
-    description: 'Python scikit based program to classify comments as spam or ham',
+    name: 'Caffeine Tracker',
+    description: 'An Android application built with Android Studio that allows users to log and track their daily caffeine consumption. Visualizes caffeine decay over time with interactive graphs.',
     tags: [
       {
-        name: 'python',
+        name: 'android',
         color: 'blue-text-gradient',
       },
       {
-        name: 'scikit',
+        name: 'kotlin',
         color: 'green-text-gradient',
       },
+      {
+        name: 'charts',
+        color: 'pink-text-gradient',
+      },
     ],
-    image: stock,
     repo: 'https://github.com/norman-glad',
+    demo: 'https://github.com/norman-glad',
   },
 ];
 
