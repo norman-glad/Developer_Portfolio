@@ -94,64 +94,63 @@ const technologies = [
 const projects = [
   {
     id: 'project-1',
-    name: 'Full-Stack Bookstore',
-    description: 'A full-stack bookstore web application built with Node.js and React. Features user authentication, book browsing, and CRUD operations with MongoDB as the database.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'pink-text-gradient',
-      },
-    ],
+    name: 'Bookstore',
+    description: 'Full-stack e-commerce bookstore with user authentication, book catalog management, and seamless CRUD operations.',
+    stack: {
+      frontend: [{ name: 'React', icon: 'react' }],
+      backend: [{ name: 'Node.js', icon: 'nodejs' }],
+      database: [{ name: 'MongoDB', icon: 'mongodb' }],
+      auth: [{ name: 'JWT', icon: 'jwt' }],
+    },
     repo: 'https://github.com/norman-glad/please-work',
     demo: 'https://please-work-1.onrender.com/',
   },
   {
     id: 'project-2',
     name: 'Todo App',
-    description: 'A task management application built with React frontend and .NET Entity Framework backend. Utilizes PostgreSQL for data persistence with full CRUD functionality.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '.net',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'postgresql',
-        color: 'pink-text-gradient',
-      },
-    ],
+    description: 'Enterprise-grade task management system with persistent storage and full CRUD functionality.',
+    stack: {
+      frontend: [{ name: 'React', icon: 'react' }],
+      backend: [{ name: '.NET EF', icon: 'dotnet' }],
+      database: [{ name: 'PostgreSQL', icon: 'postgresql' }],
+    },
     repo: 'https://github.com/norman-glad',
     demo: 'https://github.com/norman-glad',
   },
   {
     id: 'project-3',
     name: 'Caffeine Tracker',
-    description: 'An Android application built with Android Studio that allows users to log and track their daily caffeine consumption. Visualizes caffeine decay over time with interactive graphs.',
-    tags: [
-      {
-        name: 'android',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'kotlin',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'charts',
-        color: 'pink-text-gradient',
-      },
-    ],
+    description: 'Native Android app for logging daily caffeine intake with real-time decay visualization and analytics.',
+    stack: {
+      mobile: [
+        { name: 'Android', icon: 'android' },
+        { name: 'Kotlin', icon: 'kotlin' },
+      ],
+      visualization: [{ name: 'Charts', icon: null }],
+    },
+    repo: 'https://github.com/norman-glad',
+    demo: 'https://github.com/norman-glad',
+  },
+  {
+    id: 'project-4',
+    name: 'URL Shortener',
+    description: 'High-performance URL shortening service with secure authentication and analytics tracking.',
+    stack: {
+      frontend: [{ name: 'React', icon: 'react' }],
+      backend: [{ name: 'Fastify', icon: 'fastify' }],
+      database: [{ name: 'MongoDB', icon: 'mongodb' }],
+      auth: [{ name: 'JWT', icon: 'jwt' }],
+    },
+    repo: 'https://github.com/norman-glad',
+    demo: 'https://github.com/norman-glad',
+  },
+  {
+    id: 'project-5',
+    name: 'Tic-Tac-Toe',
+    description: 'Classic strategy game with sleek UI, game state management, and win detection algorithms.',
+    stack: {
+      frontend: [{ name: 'React', icon: 'react' }],
+    },
     repo: 'https://github.com/norman-glad',
     demo: 'https://github.com/norman-glad',
   },
