@@ -46,7 +46,7 @@ const Contact = () => {
 
         <div className="mt-10 flex flex-col gap-6 font-poppins">
           <p className="text-silver text-[16px] leading-[28px]">
-            Feel free to reach out!
+            Feel free to checkout my socials!
           </p>
           
           <div className="flex flex-col gap-5 mt-4">
